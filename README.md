@@ -6,6 +6,10 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+(from Gemfile) ruby '2.7.3'
+
+gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
+(PostgreSQL) gem 'pg', '~> 1.1'
 
 * System dependencies
 
