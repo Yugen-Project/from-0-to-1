@@ -1,10 +1,76 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://unsplash.com/photos/SYTO3xs06fU);">
-  <div class="container">
-    <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
-    <p>Change your life and learn to code at one of our campuses around the world.</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <a class="navbar-brand" href="#">
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Messages</a>
+      </li>
+      <li class="nav-item dropdown">
+        <img class="avatar dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="https://kitt.lewagon.com/placeholder/users/random" />
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
-  
-<%= button_to "logout", destroy_user_session_path, method: :delete  %>
+
 <%= button_to "login", new_user_session_path, method: :create  %>
+<%= button_to "logout", destroy_user_session_path, method: :delete  %>
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://unsplash.com/photos/SYTO3xs06fU);">
+  <div class="container">
+    <h1>From 0 to 1 is a platform for <strong>Software Engineers and Designers</strong>!</h1>
+    <p>Find a mentor, Collaborate, Get hired!</p>
+    <a class="btn btn-flat" href="https://yugen-project.notion.site/Y-gen-Project-8cde8b92d65a4bdcb4f023fb81c023f4">Apply now</a>
+  </div>
+</div>
+
+
+<div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2>Benefit 1</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </div>
+</div>
+<div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2>Benefit 2</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </div>
+</div>
+<div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2>Benefit 3</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </div>
+</div>
+
+  
+<div class="footer">
+  <div class="footer-links">
+    <a href="https://github.com/Yugen-Project"><i class="fab fa-github"></i></a>
+    <a href="https://github.com/Yugen-Project"><i class="fab fa-instagram"></i></a>
+    <a href="https://github.com/Yugen-Project"><i class="fab fa-facebook"></i></a>
+    <a href="https://github.com/Yugen-Project"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/Yugen-Project"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Made by Yūgen Project
+  </div>
+</div>
+
